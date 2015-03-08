@@ -23,9 +23,7 @@ public class CacheQueue<K, V> {
                 clearTimeoutElement();
             }
         };
-//        cleaner.setDaemon(true);
         threadPool.submit(cleaner);
-//        cleaner.start();
     }
 
     private void clearTimeoutElement(){
