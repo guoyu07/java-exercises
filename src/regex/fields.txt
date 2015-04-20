@@ -1,0 +1,76 @@
+    @JsonProperty("t10-goods-type")
+    private Integer t10_goods_type;
+    @JsonProperty("t10-goods-ext")
+    private T10GoodsExt t10_goods_ext;
+    @JsonProperty("mobile_top")
+    private String mobile_top;
+    @JsonProperty("mnuomicom_small_image")
+    private String mnuomicom_small_image;
+    @JsonProperty("mnuomicom_large_image")
+    private String mnuomicom_large_image;
+    @JsonProperty("medium_title")
+    private String medium_title;
+    @JsonProperty("is_movie_message")
+    private String is_movie_message;
+    @JsonProperty("iphone_small_image")
+    private String iphone_small_image;
+    @JsonProperty("iphone_large_image")
+    private String iphone_large_image;
+    @JsonProperty("homepage_image")
+    private String homepage_image;
+    @JsonProperty("general_image")
+    private String general_image;
+    @JsonProperty("ctrip_prod_id")
+    private String ctrip_prod_id;
+    @JsonProperty("coupon_usage")
+    private String coupon_usage;
+    @JsonProperty("coupon_title")
+    private String coupon_title;
+    @JsonProperty("coupon_greeting")
+    private String coupon_greeting;
+    @JsonProperty("coupon_comment")
+    private String coupon_comment;
+    @JsonProperty("coupon_address")
+    private String coupon_address;
+    @JsonProperty("city_district_forSina")
+    private String city_district_forSina;
+    @JsonProperty("city_block_forSina")
+    private String city_block_forSina;
+    @JsonProperty("android_tiny_image")
+    private String android_tiny_image;
+    @JsonProperty("android_small_image")
+    private String android_small_image;
+    @JsonProperty("android_large_image")
+    private String android_large_image;
+    @JsonProperty("android_image")
+    private String android_image;
+    @JsonProperty("symbian_small_image")
+    private String symbian_small_image;
+    @JsonProperty("symbian_large_image")
+    private String symbian_large_image;
+    @JsonProperty("secondary_image")
+    private String secondary_image;
+    @JsonProperty("rules_limit")
+    private String rules_limit;
+    @JsonProperty("rrad_title")
+    private String rrad_title;
+    @JsonProperty("rrad_image")
+    private String rrad_image;
+    @JsonProperty("rrad_content")
+    private String rrad_content;
+    @JsonProperty("reject_remark")
+    private String reject_remark;
+    @JsonProperty("name_label")
+    private String name_label;
+    @JsonProperty("multi_city_url")
+    private String multi_city_url;
+    @JsonProperty("img_path_segment")
+    private String img_path_segment;
+    @JsonProperty("feed_desc")
+    private String feed_desc;
+    @JsonProperty("dpshop-id")
+    private String dpshop_id;
+    @JsonProperty("countrywide")
+    private String countrywide;
+    @JsonProperty("city-block")
+    private String city_block;
