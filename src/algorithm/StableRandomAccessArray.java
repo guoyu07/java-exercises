@@ -33,6 +33,9 @@ public class StableRandomAccessArray<T> implements Iterable<T>{
             return  null;
         }
         int surplusLength = arr.length - index++;
+        if(surplusLength == 1){
+            return arr[surplusLength - 1];
+        }
         int r = random.nextInt(surplusLength);
         T result = arr[r];
         arr[r] = arr[surplusLength - 1];
